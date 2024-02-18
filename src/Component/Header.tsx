@@ -24,19 +24,19 @@ export default function Header(props: HeaderStyle) {
               <span className="innertext text-white">Home</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/About" className="nav-link">
+            <Nav.Link as={Link} to="/#About" className="nav-link">
               <span className="innertext text-white">About</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/Education" className="nav-link">
+            <Nav.Link as={Link} to="/#Education" className="nav-link">
               <span className="innertext text-white">Education</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/Skills" className="nav-link">
+            <Nav.Link as={Link} to="/#Skills" className="nav-link">
               <span className="innertext text-white">Skills</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/Contact" className="nav-link">
+            <Nav.Link as={Link} to="/Contact#top" className="nav-link">
               <span className="innertext text-white">Contact</span>
             </Nav.Link>
           </Nav>
