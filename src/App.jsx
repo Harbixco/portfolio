@@ -1,5 +1,28 @@
+import Header from "./Component/Header";
+import Home from "./Component/Home";
+import About from "./Component/About";
+import Contact from "./Component/Contact";
+import Education from "./Component/Education";
+import Skills from "./Component/Skills";
+import Error from "./Component/Error";
+import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 export default function App() {
   return (
-    <div className="text-center">App</div>
-  )
+    <>
+      <Header
+        firstColor={{ backgroundColor: "#081b29" }}
+        SecondColor={{ backgroundColor: "white" }}
+      />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </>
+  );
 }
