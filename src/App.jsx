@@ -16,11 +16,28 @@ export default function App() {
         SecondColor={{ backgroundColor: "white" }}
       />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <Home
+              emoji="&#129321;"
+              blackColor={{ backgroundColor: "#1a2232" }}
+              LightBlue={{ color: "#368ae1" }}
+            />
+          }
+        />
         <Route path="/About" element={<About />} />
         <Route path="/Education" element={<Education />} />
         <Route path="/Skills" element={<Skills />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route
+          path="/Contact"
+          element={
+            <Contact
+              blackColor={{ backgroundColor: "#1a2232" }}
+              LightBlue={{ color: "#368ae1" }}
+            />
+          }
+        />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
