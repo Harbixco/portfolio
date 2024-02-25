@@ -1,10 +1,10 @@
 import React from "react";
-import About from "./About";
-import Education from "./Education";
-import Skills from "./Skills";
-import Contact from "./Contact";
-import "../images.d.ts";
-import slide1 from "../Images/slide1.png";
+import Skills from "../Skills";
+import Contact from "../Contact";
+import slide1 from "../../Images/slide1.png";
+import About from "../About";
+import Education from "../Education";
+import AnimatedPage from "../Animated/AnimatedPage";
 
 type EmojiProps = {
   emoji: string;
@@ -12,9 +12,9 @@ type EmojiProps = {
   LightBlue: React.CSSProperties;
 };
 
-export default function Home(props: EmojiProps) {
+export default function Index(props: EmojiProps) {
   return (
-    <>
+    <AnimatedPage>
       <div id="Home">
         <div className="container-fluid" style={props.blackColor}>
           <div className="row">
@@ -63,6 +63,6 @@ export default function Home(props: EmojiProps) {
           LightBlue={{ color: "#368ae1" }}
         />
       </div>
-    </>
+    </AnimatedPage>
   );
 }

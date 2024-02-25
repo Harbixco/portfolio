@@ -3,14 +3,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { HashLink as Link } from "react-router-hash-link";
-import logo from "../Images/logo.png";
+import logo from "../../Images/logo.png";
 
 type HeaderStyle = {
   firstColor: React.CSSProperties;
   SecondColor: React.CSSProperties;
 };
 
-export default function Header(props: HeaderStyle) {
+export default function Index(props: HeaderStyle) {
   return (
     <Navbar expand="lg" style={props.firstColor}>
       <Container>
