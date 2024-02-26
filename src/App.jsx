@@ -28,7 +28,15 @@ export default function App() {
         />
         <Route path="/About" element={<About />} />
         <Route path="/Education" element={<Education />} />
-        <Route path="/Skills" element={<Skills />} />
+        <Route
+          path="/Skills"
+          element={
+            <Skills
+              blackColor={{ backgroundColor: "#1a2232" }}
+              LightBlue={{ color: "#368ae1" }}
+            />
+          }
+        />
         <Route
           path="/Contact"
           element={
