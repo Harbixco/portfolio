@@ -5,6 +5,7 @@ import slide1 from "../../Images/slide1.png";
 import About from "../About";
 import Education from "../Education";
 import AnimatedPage from "../Animated/AnimatedPage";
+import { motion } from "framer-motion";
 
 type EmojiProps = {
   emoji: string;
@@ -25,9 +26,20 @@ export default function Index(props: EmojiProps) {
               </div>
               <div className="text-white text-justify mt-3">
                 🚀 Greetings, tech enthusiasts! I'm{" "}
-                <span className="text-1xl" style={props.LightBlue}>
+                <motion.span
+                  className="text-2xl"
+                  style={props.LightBlue}
+                  animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+                  transition={{
+                    duration: 5,
+                    delay: 0.3,
+                    ease: [0.5, 0.71, 1, 1.5],
+                  }}
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  whileHover={{ scale: 1.2 }}
+                >
                   ABIODUN
-                </span>
+                </motion.span>
                 , a wizard of the web and a maestro of pixels, dancing at the
                 intersection of creativity and functionality. As a Frontend
                 Developer, I transform lines of code into captivating user
