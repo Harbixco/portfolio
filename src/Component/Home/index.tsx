@@ -66,7 +66,10 @@ export default function Index(props: EmojiProps) {
       </div>
 
       <div id="Skills">
-        <Skills />
+        <Skills
+          blackColor={{ backgroundColor: "#151b28" }}
+          LightBlue={{ backgroundColor: "#1a2232" }}
+        />
       </div>
 
       <div id="Contact">

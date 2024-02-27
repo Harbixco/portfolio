@@ -32,8 +32,8 @@ export default function App() {
           path="/Skills"
           element={
             <Skills
-              blackColor={{ backgroundColor: "#1a2232" }}
-              LightBlue={{ color: "#368ae1" }}
+              blackColor={{ backgroundColor: "#151b28" }}
+              LightBlue={{ backgroundColor: "#1a2232" }}
             />
           }
         />
