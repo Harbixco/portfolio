@@ -32,7 +32,7 @@ export default function Index(props: HeaderStyle) {
             </Nav.Link>
 
             <Nav.Link as={Link} to="/#Education" className="nav-link">
-              <span className="innertext text-white mx-5">Education</span>
+              <span className="innertext text-white mx-5">Education / Experience</span>
             </Nav.Link>
 
             <Nav.Link as={Link} to="/#Skills" className="nav-link">

@@ -2,9 +2,7 @@ import React from "react";
 import AnimatedPage from "../Animated/AnimatedPage";
 
 export default function Index() {
-  return (
-    <AnimatedPage>
-      <div>Education</div>
-    </AnimatedPage>
-  );
+
+
+  return <AnimatedPage></AnimatedPage>;
 }

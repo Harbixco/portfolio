@@ -41,7 +41,6 @@ export default function App() {
           path="/Contact"
           element={
             <Contact
-              blackColor={{ backgroundColor: "#1a2232" }}
               LightBlue={{ color: "#368ae1" }}
             />
           }
