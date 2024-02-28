@@ -28,7 +28,7 @@ export default function Index(props: Colors) {
                 <div className="flex justify-center lg:my-5">
                   <img src={data.img} alt="" />
                 </div>
-                <div className="text-white">{data.name}</div>
+                <div className="text-white text-xs">{data.name}</div>
               </div>
             );
           })}
