@@ -5,9 +5,11 @@ import file from "../../Images/file.pdf";
 export default function Index() {
   return (
     <AnimatedPage>
-      <a href="../../Images/file.pdf" download={file}>
-        Download
-      </a>
+      <button className="text-primary">
+        <a href={file}>
+          Download
+        </a>
+      </button>
     </AnimatedPage>
   );
 }
