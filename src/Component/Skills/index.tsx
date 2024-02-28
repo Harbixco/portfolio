@@ -17,11 +17,11 @@ export default function Index(props: Colors) {
         The technologies I'm currently using are :
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 ">
-        <div style={props.blackColor} className="grid gap-2 grid-cols-4 group">
+        <div style={props.blackColor} className="grid grid-cols-4 group">
           {data.map((data, index) => {
             return (
               <div
-                className="border-solid my-1 text-center border-2 py-3  mx-2 lg:mx-0 group"
+                className="border-solid my-1 text-center border-2 py-2  mx-1 lg:mx-0 group"
                 style={props.LightBlue}
                 key={index}
               >
