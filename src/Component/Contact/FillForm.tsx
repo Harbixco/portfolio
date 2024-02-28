@@ -62,18 +62,22 @@ export default function FillForm() {
               <Form.Control
                 type="comment"
                 name="comment"
-                placeholder="Comment"
+                placeholder="what do you have to tell / offer me?"
                 value={values.comment}
                 onChange={handleChange}
                 isInvalid={!!errors.comment}
+                className="h-24"
               />
               <Form.Control.Feedback type="invalid">
                 {errors.comment}
               </Form.Control.Feedback>
             </Form.Group>
           </div>
-
-          <Button type="submit">Submit form</Button>
+          <div className="text-center py-3">
+            <Button type="submit">
+              Submit
+            </Button>
+          </div>
         </Form>
       )}
     </Formik>
