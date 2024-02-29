@@ -27,7 +27,10 @@ export default function App() {
           }
         />
         <Route path="/About" element={<About />} />
-        <Route path="/Education" element={<Education />} />
+        <Route
+          path="/Education"
+          element={<Education blackColor={{ backgroundColor: "#151b28" }} />}
+        />
         <Route
           path="/Skills"
           element={
@@ -39,11 +42,7 @@ export default function App() {
         />
         <Route
           path="/Contact"
-          element={
-            <Contact
-              LightBlue={{ color: "#368ae1" }}
-            />
-          }
+          element={<Contact LightBlue={{ color: "#368ae1" }} />}
         />
         <Route path="*" element={<Error />} />
       </Routes>

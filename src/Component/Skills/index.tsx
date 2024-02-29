@@ -21,12 +21,12 @@ export default function Index(props: Colors) {
           {data.map((data, index) => {
             return (
               <div
-                className="border-solid my-1 text-center border-2 py-2  mx-1 lg:mx-0 group"
+                className="rounded border-gray-600 border-solid my-1 text-center border-2 py-2  mx-1 lg:mx-0 group"
                 style={props.LightBlue}
                 key={index}
               >
                 <div className="flex justify-center lg:my-5">
-                  <img src={data.img} alt="" />
+                  <img src={data.img} alt="" className="my-2" />
                 </div>
                 <div className="text-white text-xs">{data.name}</div>
               </div>
