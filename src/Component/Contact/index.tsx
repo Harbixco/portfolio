@@ -21,7 +21,7 @@ export default function Index(props: Colors) {
               will definitely reply as fast as possible. I can help you you with
               Web Development.
             </div>
-            <div className=" flex justify-around lg:py-36">
+            <div className=" flex justify-around py-10 lg:py-36">
               <div>
                 <a
                   href="https://agbajeabiodunkay@gmail.com"
