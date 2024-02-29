@@ -1,6 +1,7 @@
 import React from "react";
 import AnimatedPage from "../Animated/AnimatedPage";
 import { expert } from "../Utils/data.tsx";
+import file from "../../Images/file.pdf"
 import Experience from "./Experience.tsx";
 
 type Colors = {
