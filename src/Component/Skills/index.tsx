@@ -16,8 +16,8 @@ export default function Index(props: Colors) {
       >
         The technologies I'm currently using are :
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 ">
-        <div style={props.blackColor} className="grid grid-cols-4 group">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div style={props.blackColor} className="grid grid-cols-4 group pb-3">
           {data.map((data, index) => {
             return (
               <div
