@@ -9,9 +9,7 @@ type Colors = {
 export default function Experience(props: Colors) {
   return (
     <div>
-      <div className="font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
-        My Experiences
-      </div>
+      
       <div className="grid grid-cols-1 lg:grid-cols-2 ">
         <div style={props.LightBlue}>
           {resume.map((data, index) => {

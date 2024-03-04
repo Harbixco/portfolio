@@ -98,3 +98,29 @@ export const resume = [
 export const imageTwo = {
   img: slide3,
 };
+
+export const about = [
+  {
+    question: "What Drives Me?",
+    answer:
+      "My journey into the world of frontend development began with a simple fascination for creating things that not only look great butalso deliver seamless user interactions. I believe that the frontend is the face of any digital project and I am committed to making that face not only aesthetically pleasing but also highly intuitive and responsive",
+  },
+
+  {
+    question: "My Expertise?",
+    answer:
+      "As a seasoned frontend developer, I specialize in turning concepts into reality using a powerful blend of HTML, CSS, and JavaScript, react js, typescript e.t.c. I stay on the cutting edge of technology, always eager to implement the latest frameworks and libraries to ensure that the websites I build are not just visually appealing but also leverage the best in web development practices.",
+  },
+
+  {
+    question: "My Collaborative Spirit?",
+    answer:
+      "I thrive in collaborative environments, where ideas flow freely, and creativity knows no bounds. Working closely with clients, designers, and other developers, I ensure that the end product exceeds expectations and aligns perfectly with the project's goals I keep learning and getting to know how to build in a better and more professional way to satisfy user,satisfy users.",
+  },
+
+  {
+    question: "Let's Create Together",
+    answer:
+      "Whether you're a business looking to establish a strong online presence or a fellow developer seeking collaboration, I'm here to bring your vision to life. Let's embark on a journey of innovation and creativity, turning ideas into captivating digital experiences.",
+  },
+];
