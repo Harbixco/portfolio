@@ -25,7 +25,7 @@ export default function Index(props: EmojiProps) {
                 <span>{props.emoji}</span>
               </div>
               <div className="text-white text-justify mt-3">
-                🚀 Greetings, tech enthusiasts! I'm{" "}
+                🚀 Greetings, I'm
                 <motion.span
                   className="text-2xl"
                   style={props.LightBlue}
@@ -38,13 +38,14 @@ export default function Index(props: EmojiProps) {
                   initial={{ opacity: 0, scale: 0.5 }}
                   whileHover={{ scale: 1.2 }}
                 >
-                  ABIODUN
+                  <span className="ml-2">ABIODUN</span>
                 </motion.span>
-                , a wizard of the web and a maestro of pixels, dancing at the
-                intersection of creativity and functionality. As a Frontend
-                Developer, I transform lines of code into captivating user
-                experiences that leave an indelible mark on the digital
-                landscape. Join me on a journey where innovation meets seamless
+                , Welcome to my corner of the digital realm! I'm a passionate
+                and innovative front-end developer dedicated to crafting
+                immersive and user-friendly web experiences. With a keen eye for
+                design and a knack for turning ideas into pixel-perfect reality,
+                I bring a blend of creativity and technical expertise to every
+                project. Join me on a journey where innovation meets seamless
                 design, and let's redefine the way the world interacts with the
                 web! 💻✨
                 <div className="my-5">#AbiodunTheFrontend #CodeCraftsman</div>
@@ -58,7 +59,7 @@ export default function Index(props: EmojiProps) {
       </div>
 
       <div id="About">
-        <About />
+        <About blackColor={{ backgroundColor: "#1a2232" }} />
       </div>
 
       <div id="Education">
