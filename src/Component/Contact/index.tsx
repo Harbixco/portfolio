@@ -4,14 +4,15 @@ import AnimatedPage from "../Animated/AnimatedPage";
 
 type Colors = {
   LightBlue: React.CSSProperties;
+  blackColor: React.CSSProperties;
 };
 
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2" style={props.blackColor}>
         <div>
-          <div className="text-3xl bg-white inknut-antiqua-medium text-center my-3">
+          <div className="text-3xl bg-white inknut-antiqua-medium text-center py-1">
             Get in Touch
           </div>
 
@@ -61,10 +62,10 @@ export default function Index(props: Colors) {
         </div>
 
         <div>
-          <div className="text-3xl bg-white inknut-antiqua-medium text-center my-3">
+          <div className="text-3xl bg-white inknut-antiqua-medium text-center py-1">
             Talk to me
           </div>
-          <div style={props.LightBlue}>
+          <div style={props.LightBlue} className="mb-5">
             <div className="text-white text-center pt-5">
               Do you have a project for me or a job?
             </div>

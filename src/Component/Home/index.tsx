@@ -77,7 +77,10 @@ export default function Index(props: EmojiProps) {
       </div>
 
       <div id="Contact">
-        <Contact LightBlue={{ backgroundColor: "#1a2232" }} />
+        <Contact
+          LightBlue={{ backgroundColor: "#1a2232" }}
+          blackColor={{ backgroundColor: "#151b28" }}
+        />
       </div>
     </AnimatedPage>
   );
