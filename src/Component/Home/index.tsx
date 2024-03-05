@@ -24,7 +24,7 @@ export default function Index(props: EmojiProps) {
                 <span className="text-white text-2xl">Hi there </span>
                 <span>{props.emoji}</span>
               </div>
-              <div className="text-white text-justify mt-3">
+              <div className="text-white text-justify mt-3 mx-2">
                 🚀 Greetings, I'm
                 <motion.span
                   className="text-2xl"
@@ -77,7 +77,10 @@ export default function Index(props: EmojiProps) {
       </div>
 
       <div id="Contact">
-        <Contact LightBlue={{ backgroundColor: "#1a2232" }} />
+        <Contact
+          LightBlue={{ backgroundColor: "#1a2232" }}
+          blackColor={{ backgroundColor: "#151b28" }}
+        />
       </div>
     </AnimatedPage>
   );

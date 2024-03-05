@@ -50,7 +50,12 @@ export default function App() {
         />
         <Route
           path="/Contact"
-          element={<Contact LightBlue={{ color: "#368ae1" }} />}
+          element={
+            <Contact
+              LightBlue={{ color: "#368ae1" }}
+              blackColor={{ backgroundColor: "#151b28" }}
+            />
+          }
         />
         <Route path="*" element={<Error />} />
       </Routes>
