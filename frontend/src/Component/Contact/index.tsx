@@ -1,5 +1,5 @@
 import React from "react";
-import FillForm from "./FillForm";
+import FillForm from "./FillForm.jsx";
 import AnimatedPage from "../Animated/AnimatedPage";
 
 type Colors = {

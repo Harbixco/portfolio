@@ -5,6 +5,19 @@ import Navbar from "react-bootstrap/Navbar";
 import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../Images/logo.png";
 
+<Link to={"/#top"} className="nav-link">
+              <li className="nav-item">Home</li>
+            </Link>
+            <Link to={"/#About"} className="nav-link">
+              <li className="nav-item"> About </li>
+            </Link>
+            <Link to={"/#Education"} className="nav-link">
+              <li className="nav-item"> Education / Experience</li>
+            </Link>
+            <Link to={"/#Skills"} className="nav-link">
+              <li className="nav-item">Skills</li>
+            </Link>
+
 type HeaderStyle = {
   firstColor: React.CSSProperties;
   SecondColor: React.CSSProperties;
