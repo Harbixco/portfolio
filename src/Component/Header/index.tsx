@@ -4,10 +4,14 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../Images/logo.png";
 import "../../vite-env.d.ts";
 
+type HeaderStyle = {
+  firstColor: React.CSSProperties;
+};
+
 const navigation = [
   { name: "Home", href: "/#top", current: true },
   { name: "About", href: "/#About", current: false },
-  { name: "  Education / Experience", href: "/#Education", current: false },
+  { name: "  Education / Experiences", href: "/#Education", current: false },
   { name: "Skills", href: "/#Skills", current: false },
   { name: "Contact", href: "/Contact#top", current: false },
 ];
@@ -16,9 +20,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Example(props: HeaderStyle) {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" style={props.firstColor}>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -86,3 +90,4 @@ export default function Example() {
     </Disclosure>
   );
 }
+  
