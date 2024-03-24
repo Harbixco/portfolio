@@ -11,10 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   return (
     <>
-      <Header
-        firstColor={{ backgroundColor: "#081b29" }}
-        SecondColor={{ backgroundColor: "white" }}
-      />
+      <Header firstColor={{ backgroundColor: "#081b29" }} />
       <Routes>
         <Route
           path="/"
