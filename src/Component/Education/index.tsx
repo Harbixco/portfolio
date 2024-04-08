@@ -12,7 +12,7 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div className="font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
+      <div className="dark:text-white font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
         My Experiences
       </div>
       <div className="grid grid-cols-2 gap-2">

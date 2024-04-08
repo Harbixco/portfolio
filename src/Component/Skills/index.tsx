@@ -10,6 +10,7 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
+      {/* <div className="text-red-500 dark:text-yellow-950 text-6xl">Hello</div> */}
       <div
         className="text-2xl font-medium py-3 pl-2 text-white"
         style={props.blackColor}

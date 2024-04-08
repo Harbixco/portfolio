@@ -6,7 +6,6 @@ import Education from "./Component/Education";
 import Skills from "./Component/Skills";
 import Error from "./Component/Error";
 import { Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (

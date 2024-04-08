@@ -11,7 +11,7 @@ export default function Experience(props: Colors) {
     <div>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 ">
-        <div style={props.LightBlue}>
+        <div style={props.LightBlue} className="dark:text-white">
           {resume.map((data, index) => {
             return (
               <div

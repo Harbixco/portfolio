@@ -9,7 +9,7 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div className="font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
+      <div className="dark:text-white font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
         FEW THINGS ABOUT MYSELF
       </div>
 

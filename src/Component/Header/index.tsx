@@ -2,7 +2,7 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../Images/logo.png";
-import "../../vite-env.d.ts";
+import { DarkMode } from "../../../public/DarkMode";
 
 type HeaderStyle = {
   firstColor: React.CSSProperties;
@@ -61,6 +61,8 @@ export default function Example(props: HeaderStyle) {
                     ))}
                   </div>
                 </div>
+
+                <DarkMode />
               </div>
             </div>
           </div>
@@ -90,4 +92,3 @@ export default function Example(props: HeaderStyle) {
     </Disclosure>
   );
 }
-  
