@@ -1,5 +1,5 @@
 import React from "react";
-import FillForm from "./FillForm.jsx";
+// import FillForm from "./FillForm.jsx";
 import AnimatedPage from "../Animated/AnimatedPage";
 
 type Colors = {
@@ -10,9 +10,9 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div  style={props.blackColor}>
+      <div>
         <div>
-          <div className="text-3xl bg-white inknut-antiqua-medium text-center py-1">
+          <div className="text-3xl inknut-antiqua-medium text-center py-1 dark:text-white text-blue-600 font-semibold">
             Get in Touch
           </div>
 

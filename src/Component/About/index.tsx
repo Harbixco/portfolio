@@ -9,26 +9,24 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div className="font-medium text-black inknut-antiqua-medium text-center text-2xl my-2">
-        FEW THINGS ABOUT MYSELF
-      </div>
+      <div className="">
+        <div className="text-center text-2xl my-2 dark:text-white text-blue-600 font-semibold">
+          FEW THINGS ABOUT MYSELF
+        </div>
 
-      <div
-        className="grid grid-cols-1 lg:grid-cols-2 text-white"
-        style={props.blackColor}
-      >
-        {about.map((data, index) => {
-          return (
-            <div key={index}>
-              <div className="text-center text_sm pt-3">{data.question}</div>
-              <div className="text-justify mx-3 py-3 text_sm">
-                {data.answer}
+        <div className="grid grid-cols-1 lg:grid-cols-2 bg-white dark:bg-[#1a2232]">
+          {about.map((data, index) => {
+            return (
+              <div key={index} className="">
+                <div className="text-center text_sm pt-3 dark:text-white text-blue-600">{data.question}</div>
+                <div className="text-justify mx-3 py-3 text_sm dark:text-white text-black">
+                  {data.answer}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-      <div></div>
     </AnimatedPage>
   );
 }

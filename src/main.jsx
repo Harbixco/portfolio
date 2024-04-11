@@ -4,11 +4,12 @@ import App from "./App";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <div className="dark:bg-[#1a2232] ">
+          <App />
+        </div>
     </BrowserRouter>
   </React.StrictMode>
 );
