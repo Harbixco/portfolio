@@ -17,7 +17,7 @@ export default function Index(props: EmojiProps) {
   return (
     <AnimatedPage>
       <div id="Home">
-        <div className="grid grid-cols-1 sm:grid-cols-[50%_40%] ">
+        <div className="grid grid-cols-1 sm:grid-cols-[50%_40%] pt-10">
           <div className="sm:px-10 px-4 py-3 sm:py-10 dark:text-white leading-5 lg:leading-8">
             <div>
               <span className="text-2xl">Hi there </span>
