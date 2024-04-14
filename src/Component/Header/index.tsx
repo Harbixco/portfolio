@@ -41,12 +41,12 @@ export default function Example(props: HeaderStyle) {
               <div className=" flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto px-40"
+                    className="h-8 w-auto px-36"
                     src={logo}
                     alt="Your Company"
                   />
                 </div>
-                <div className="hidden sm:pr-52 sm:block">
+                <div className="hidden sm:pr-50 sm:block sm:pr-40">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
@@ -67,6 +67,7 @@ export default function Example(props: HeaderStyle) {
                 </div>
 
                 <DarkMode />
+
               </div>
             </div>
           </div>
