@@ -3,7 +3,11 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function FillForm() {
   const [state, handleSubmit] = useForm("meqyknez");
   if (state.succeeded) {
-    return <div className="flex justify-center text-2xl text-blue-600 font-semibold pt-20 ">Thanks, Message sent!</div>;
+    return (
+      <div className="flex justify-center text-2xl text-blue-600 dark:text-white font-semibold pt-20 ">
+        Thanks, Message sent!
+      </div>
+    );
   }
   return (
     <>
