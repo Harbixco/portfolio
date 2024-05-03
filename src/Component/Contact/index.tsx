@@ -10,7 +10,7 @@ type Colors = {
 export default function Index(props: Colors) {
   return (
     <AnimatedPage>
-      <div className="grid grid-cols-1 lg:grid-cols-2 dark:bg-black bg-white">
+      <div className="grid grid-cols-1 lg:grid-cols-2 dark:bg-black bg-white mt-4 py-8">
         <div className="sm:pb-0 pb-5">
           <FillForm />
         </div>
