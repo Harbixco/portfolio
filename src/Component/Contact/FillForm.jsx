@@ -55,11 +55,11 @@ export default function FillForm() {
               errors={state.errors}
             />
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center pt-4">
             <button
               type="submit"
               disabled={state.submitting}
-              className="border-solid border-gray-600 rounded dark:bg-white dark:text-black text-white bg-blue-300 px-5 py-1 "
+              className="border-solid border-gray-600 rounded dark:bg-white dark:text-black text-white bg-blue-600 px-5 py-1 "
             >
               Submit
             </button>
