@@ -42,7 +42,7 @@ export default function Index(props: Colors) {
 
               <div>
                 <a
-                  href="https://x.com/KayusdMan?t=OjQWGO6eRnsqkFmSgWVKZQ&s=08 "
+                  href="https://x.com/ "
                   className="icon-[ri--twitter-x-line] text-3x1"
                 ></a>
               </div>

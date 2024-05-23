@@ -65,14 +65,15 @@ export default function Example(props: HeaderStyle) {
                     ))}
                   </div>
                 </div>
-
-                <DarkMode />
+                <div>
+                  <DarkMode />
+                </div>
               </div>
             </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="space-y-1 px-2 pb-3 pt-10">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
