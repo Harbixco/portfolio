@@ -103,7 +103,7 @@ export const resume = [
     start: "May 2024 ",
     end: "Present",
     role: "Front End Developer",
-    company: "Cyber Expansion Technologies",
+    company: "Expansion Cyber Technologies",
   },
 
   {
