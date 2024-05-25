@@ -10,7 +10,7 @@ export default function Experience(props: Colors) {
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="dark:text-white text-black">
+        <div className="dark:text-white text-black sm:pt-10 sm:pl-10">
           {resume.map((data, index) => {
             return (
               <div
