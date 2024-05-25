@@ -100,8 +100,15 @@ export const expert = {
 
 export const resume = [
   {
-    start: "Jan. 2024 ",
+    start: "May 2024 ",
     end: "Present",
+    role: "Front End Developer",
+    company: "Cyber Expansion Technologies",
+  },
+
+  {
+    start: "Jan. 2024 ",
+    end: "April 2024",
     role: "Front End Developer",
     company: "Digital Creative Dev.",
   },
