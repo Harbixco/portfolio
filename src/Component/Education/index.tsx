@@ -22,7 +22,7 @@ export default function Index(props: Colors) {
           </div>
           <div className=" border-solid border-2 my-1 border-gray-600"></div>
           <div className="text-black dark:text-white text-3xl mt-2 lg:text-7xl">
-            3
+            4
           </div>
         </div>
         <div className="rounded border-gray-600 border-solid my-1 text-center border-2 py-2  mx-1 lg:mx-0 group bg-white dark:bg-[#1a2232]">
