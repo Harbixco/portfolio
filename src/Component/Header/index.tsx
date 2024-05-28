@@ -41,7 +41,7 @@ export default function Example(props: HeaderStyle) {
               <div className=" flex sm:justify-start">
                 <div className="">
                   <img
-                    className="h-8 w-auto pr-44 pl-5"
+                    className="h-8 w-auto pr-20 sm:pr-4 pl-5"
                     src={logo}
                     alt="Your Company"
                   />

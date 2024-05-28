@@ -14,7 +14,7 @@ export default function FillForm() {
       <div className="dark:text-white text-blue-600 inknut-antiqua-medium text-center text-2xl my-2 font-semibold">
         Fill the form below to message me.
       </div>
-      <div className="flex justify-center pt-6">
+      <div className="grid justify-items-center pt-6 pl- sm:pl-0">
         <form onSubmit={handleSubmit}>
           <div className="p-2">
             <input
@@ -22,7 +22,7 @@ export default function FillForm() {
               type="text"
               name="name"
               placeholder="Name"
-              className="w-96"
+              className="w-[260px] sm:w-96"
             />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
@@ -33,7 +33,7 @@ export default function FillForm() {
               type="email"
               name="email"
               placeholder="Email"
-              className="w-96"
+              className="w-[260px] sm:w-96"
             />
             <ValidationError
               prefix="Email"
@@ -47,7 +47,7 @@ export default function FillForm() {
               id="message"
               name="message"
               placeholder="Message"
-              className="w-96 h-32"
+              className="w-[260px] sm:w-96 h-32"
             />
             <ValidationError
               prefix="Message"
